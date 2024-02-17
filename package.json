@@ -1,0 +1,22 @@
+{
+  "name": "as-wav",
+  "version": "0.0.1",
+  "description": "Prepend wav headers to a file",
+  "main": "as-wav.js",
+  "scripts": {
+    "prettier": "prettier --write as-wav.js",
+    "as-wav": "node as-wav.js"
+  },
+  "keywords": [
+    "wav",
+    "convert"
+  ],
+  "author": "Van Appears",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  },
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
