@@ -12,3 +12,5 @@ npm run as-wav <file or folder>... -- [--mode mono|stereo]
 ```
 
 If not supplied, it will default to mono.
+
+The process for generating a wav header was derived from the code in [node-wav](https://github.com/andreasgal/node-wav) package.
